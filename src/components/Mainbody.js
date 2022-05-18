@@ -79,7 +79,7 @@ export default function Mainbody() {
 
     const getWeatherData = async function (latw, lonw, callBack) {
       await fetch(
-        "https://api.openweathermap.org/data/2.5/weather?lat=" +
+        "http://api.openweathermap.org/data/2.5/weather?lat=" +
           latw +
           "&lon=" +
           lonw +
